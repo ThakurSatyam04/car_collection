@@ -56,7 +56,8 @@ const CarDisplay = ({ cars }) => {
             </button>
             }        
           </div>
-          
+        </div>
+        <div>
         </div>
       </div>
     </div>
