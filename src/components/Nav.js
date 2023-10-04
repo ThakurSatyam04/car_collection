@@ -3,17 +3,18 @@ import { AiOutlineSearch } from "react-icons/ai";
 import Drop_down from './Drop_down.js';
 import carsData from '../data.js';
 
-const Nav = ({setFilteredCars,setSearchQuery,searchQuery}) => {
-  const [isCars,setCars] = useState(carsData);
+const Nav = ({setCars,cars,setSearchQuery,searchQuery,setIsSearched}) => {
+  // const [isCars,setCars] = useState(carsData);
 
     const handleSearchTermChange = (event) => {
       const term = event.target.value;
       setSearchQuery(term);
+      setIsSearched(true);
     
-      const filteredCars = isCars.filter((car) =>
+      const filteredCars = cars.filter((car) =>
         car.model.toLowerCase().includes(searchQuery.toLowerCase())
       );
-      setFilteredCars(filteredCars);
+      setCars(filteredCars);
      };
 
   return (
