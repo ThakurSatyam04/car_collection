@@ -1,5 +1,4 @@
 import React from 'react'
-import data from '../cars';
 
 const CarsCard = ({id,url,year,make,model,type,capacity,control,oil,milage}) => {
   return (
@@ -19,23 +18,11 @@ const CarsCard = ({id,url,year,make,model,type,capacity,control,oil,milage}) => 
         <p>{milage}</p>
         <p>{control}</p>
       </div>
-      {/* <h2>{id}</h2> */}
       <div className='flex justify-between'>
         <p>Make : {make}</p>
         <p>{type}</p>
       </div>
-
-      {/* <div className='description'>
-        {description}
-        <span className='read-more' onClick={readmoreHandler}>
-            {readMore ? `Show Less` : `Read More`}
-        </span>
-      </div> */}
     </div>
-      {/* <button className='btn-red' onClick={()=> removeTour(id)}>
-          Not Interested
-      </button> */}
-
     </div>
     </>
   )

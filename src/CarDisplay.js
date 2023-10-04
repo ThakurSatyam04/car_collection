@@ -30,29 +30,32 @@ const CarDisplay = ({ cars }) => {
             <CarsCard key={car.id} {...car} />
           ))}
         </div>
-        <div className='w-10/12 flex justify-end mt-6 gap-5 items-center'>
-          <div className='border-2 border-black rounded-full flex items-center justify-center w-[20px] h-[20px] font-bold'>
-            <p>{currentPage}</p>
+        <div className='w-10/12 flex justify-between mt-6 gap-5 items-center'>
+          <div className='flex gap-2 ml-2'>
+            <p>{currentPage}</p>of<p>{totalPage}</p>
           </div>
-          {
-            currentPage>1 && <button
-            onClick={prevPage}
-            disabled={currentPage === 1}
-            className='rounded-md border px-2 py-0 border-black hover:bg-gray-900 hover:text-white'
-          >
-            Previous
-          </button>
-          }
+          <div className='flex gap-5'>
 
-          {
-            currentPage<totalPage && <button
-            onClick={nextPage}
-            disabled={currentPage === Math.ceil(cars.length / itemsPerPage)}
-            className='rounded-md border px-2 py-0 border-black hover:bg-gray-900 hover:text-white'
-          >
-            Next
-          </button>
-          }         
+            {
+              currentPage>1 && <button
+              onClick={prevPage}
+              disabled={currentPage === 1}
+              className='rounded-md border px-2 py-0 border-black hover:bg-gray-900 hover:text-white'
+            >
+              Previous
+            </button>
+            }
+
+            {
+              currentPage<totalPage && <button
+              onClick={nextPage}
+              disabled={currentPage === Math.ceil(cars.length / itemsPerPage)}
+              className='rounded-md border px-2 py-0 border-black hover:bg-gray-900 hover:text-white'
+            >
+              Next
+            </button>
+            }        
+          </div>
           
         </div>
       </div>
