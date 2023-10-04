@@ -4,6 +4,7 @@ const carsData = [
       "year": 2008,
       "make": "Buick",
       "model": "Enclave",
+      "price": "$480",
       "capacity": "4 people",
       "control": "Automatic",
       "milage":"9km/1-litre",
@@ -16,6 +17,7 @@ const carsData = [
       "year": 2006,
       "make": "MINI",
       "model": "Convertible",
+      "price": "$350",
       "capacity": "4 people",
       "control": "Automatic",
       "milage":"9km/1-litre",
@@ -28,6 +30,7 @@ const carsData = [
       "year": 2019,
       "make": "Volvo",
       "model": "XC90",
+      "price": "$260",
       "capacity": "4 people",
       "control": "Automatic",
       "milage":"9km/1-litre",
@@ -41,6 +44,7 @@ const carsData = [
       "year": 1999,
       "make": "Ford",
       "model": "Taurus",
+      "price": "$550",
       "capacity": "4 people",
       "control": "Automatic",
       "milage":"9km/1-litre",
@@ -53,6 +57,7 @@ const carsData = [
       "year": 2020,
       "make": "Volvo",
       "model": "XC60",
+      "price": "$620",
       "capacity": "4 people",
       "control": "Automatic",
       "milage":"9km/1-litre",
@@ -65,6 +70,7 @@ const carsData = [
       "year": 2006,
       "make": "HUMMER",
       "model": "H2",
+      "price": "$412",
       "capacity": "4 people",
       "control": "Automatic",
       "milage":"9km/1-litre",
@@ -77,6 +83,7 @@ const carsData = [
       "year": 2016,
       "make": "GMC",
       "model": "Sierra 1500 Crew Cab",
+      "price": "$363",
       "capacity": "4 people",
       "control": "Automatic",
       "milage":"9km/1-litre",
@@ -89,6 +96,7 @@ const carsData = [
       "year": 2008,
       "make": "GMC",
       "model": "Canyon Crew Cab",
+      "price": "$750",
       "capacity": "4 people",
       "control": "Automatic",
       "milage":"9km/1-litre",
@@ -101,6 +109,7 @@ const carsData = [
       "year": 2016,
       "make": "Subaru",
       "model": "Outback",
+      "price": "$425",
       "capacity": "4 people",
       "control": "Automatic",
       "milage":"9km/1-litre",
@@ -113,6 +122,7 @@ const carsData = [
       "year": 2010,
       "make": "Mitsubishi",
       "model": "Outlander",
+      "price": "$350",
       "capacity": "4 people",
       "control": "Automatic",
       "milage":"9km/1-litre",
@@ -125,6 +135,7 @@ const carsData = [
       "year": 2008,
       "make": "Buick",
       "model": "Enclave",
+      "price": "$316",
       "capacity": "4 people",
       "control": "Automatic",
       "milage":"9km/1-litre",
@@ -137,6 +148,7 @@ const carsData = [
       "year": 2006,
       "make": "MINI",
       "model": "Convertible",
+      "price": "$380",
       "capacity": "4 people",
       "control": "Automatic",
       "milage":"9km/1-litre",
@@ -149,6 +161,7 @@ const carsData = [
       "year": 2019,
       "make": "Volvo",
       "model": "XC90",
+      "price": "$390",
       "capacity": "4 people",
       "control": "Automatic",
       "milage":"9km/1-litre",
@@ -161,6 +174,7 @@ const carsData = [
       "year": 1999,
       "make": "Ford",
       "model": "Taurus",
+      "price": "$550",
       "capacity": "4 people",
       "control": "Automatic",
       "milage":"9km/1-litre",
@@ -173,6 +187,7 @@ const carsData = [
       "year": 2020,
       "make": "Volvo",
       "model": "XC60",
+      "price": "$450",
       "capacity": "4 people",
       "control": "Automatic",
       "milage":"9km/1-litre",
@@ -185,6 +200,7 @@ const carsData = [
       "year": 2008,
       "make": "GMC",
       "model": "Canyon Crew Cab",
+      "price": "$650",
       "capacity": "4 people",
       "control": "Automatic",
       "milage":"9km/1-litre",
@@ -197,6 +213,7 @@ const carsData = [
       "year": 2016,
       "make": "Subaru",
       "model": "Outback",
+      "price": "$239",
       "capacity": "4 people",
       "control": "Automatic",
       "milage":"9km/1-litre",
@@ -209,6 +226,7 @@ const carsData = [
       "year": 2010,
       "make": "Mitsubishi",
       "model": "Outlander",
+      "price": "$390",
       "capacity": "4 people",
       "control": "Automatic",
       "milage":"9km/1-litre",
@@ -219,6 +237,7 @@ const carsData = [
     {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/2015_Mazda_MX-5_ND_2.0_SKYACTIV-G_160_i-ELOOP_Rubinrot-Metallic_Vorderansicht.jpg/400px-2015_Mazda_MX-5_ND_2.0_SKYACTIV-G_160_i-ELOOP_Rubinrot-Metallic_Vorderansicht.jpg",
         "model": "Mazda MX-5",
+        "price": "$710",
         "year": 1989,
         "make": "Mitsubishi",
         "type":"SUV",
@@ -231,6 +250,7 @@ const carsData = [
     {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/2014_Porsche_Cayenne_%2892A_MY14%29_GTS_wagon_%282015-08-07%29_01.jpg/400px-2014_Porsche_Cayenne_%2892A_MY14%29_GTS_wagon_%282015-08-07%29_01.jpg",
         "model": "Porsche Cayenne",
+        "price": "$980",
         "year": 2002,
         "make": "Mitsubishi",
         "type":"Pickup",
@@ -243,6 +263,7 @@ const carsData = [
     {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Vintage_car_at_the_Wirral_Bus_%26_Tram_Show_-_DSC03336.JPG/400px-Vintage_car_at_the_Wirral_Bus_%26_Tram_Show_-_DSC03336.JPG",
         "model": "Vauxhall Chevette",
+        "price": "$120",
         "year": 1975,
         "make": "Mitsubishi",
         "type":"Sedan",
@@ -255,6 +276,7 @@ const carsData = [
     {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Ford_Crown_Victoria_LX.jpg/400px-Ford_Crown_Victoria_LX.jpg",
         "model": "Ford Crown Victoria",
+        "price": "$250",
         "year": 1955,
         "make": "Mitsubishi",
         "type":"SUV",
@@ -267,6 +289,7 @@ const carsData = [
     {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Plymouth_Superbird.jpg/400px-Plymouth_Superbird.jpg",
         "model": "Plymouth Superbird",
+        "price": "$350",
         "year": 1970,
         "make": "Mitsubishi",
         "type":"Pickup",
@@ -279,6 +302,7 @@ const carsData = [
     {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/2nd-Saab-9000-hatch.jpg/400px-2nd-Saab-9000-hatch.jpg",
         "model": "Saab 9000",
+        "price": "$450",
         "year": 1984,
         "make": "Mitsubishi",
         "type":"SUV",
@@ -291,6 +315,7 @@ const carsData = [
     {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/2003-2005_Pontiac_Sunfire.jpg/400px-2003-2005_Pontiac_Sunfire.jpg",
         "model": "Pontiac Sunfire",
+        "price": "$550",
         "year": 1994,
         "make": "Mitsubishi",
         "type":"Sedan",
@@ -303,6 +328,7 @@ const carsData = [
     {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/1971_AMC_Javelin_SST_red_Kenosha_street.JPG/400px-1971_AMC_Javelin_SST_red_Kenosha_street.JPG",
         "model": "AMC Javelin",
+        "price": "$370",
         "year": 1967,
         "make": "Mitsubishi",
         "type":"Sedan",
@@ -315,6 +341,7 @@ const carsData = [
     {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Jaguar_X-Type_Estate_front_20080731.jpg/400px-Jaguar_X-Type_Estate_front_20080731.jpg",
         "model": "Jaguar X-Type",
+        "price": "$680",
         "year": 2001,
         "make": "Mitsubishi",
         "type":"Wagon",
@@ -327,6 +354,7 @@ const carsData = [
     {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/VW_Phaton_%282._Facelift%29_%E2%80%93_Frontansicht%2C_7._Mai_2011%2C_D%C3%BCsseldorf.jpg/400px-VW_Phaton_%282._Facelift%29_%E2%80%93_Frontansicht%2C_7._Mai_2011%2C_D%C3%BCsseldorf.jpg",
         "model": "Volkswagen Phaeton",
+        "price": "$500",
         "year": 2002,
         "make": "Mitsubishi",
         "type":"SUV",
@@ -339,6 +367,7 @@ const carsData = [
     {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Pontiac_G6.jpg/400px-Pontiac_G6.jpg",
         "model": "Pontiac G6",
+        "price": "$350",
         "year": 2004,
         "make": "Mitsubishi",
         "type":"Sedan",
@@ -351,6 +380,7 @@ const carsData = [
     {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Ford500a.JPG/400px-Ford500a.JPG",
         "model": "Ford Five Hundred",
+        "price": "$950",
         "year": 2004,
         "make": "Mitsubishi",
         "type":"Wagon",
@@ -363,6 +393,7 @@ const carsData = [
     {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/PontiacSolstice.jpg/400px-PontiacSolstice.jpg",
         "model": "Pontiac Solstice",
+        "price": "$370",
         "year": 2005,
         "make": "Mitsubishi",
         "type":"SUV",
@@ -375,6 +406,7 @@ const carsData = [
     {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Fiat_tipo_f.jpg/400px-Fiat_tipo_f.jpg",
         "model": "Fiat Tipo",
+        "price": "$290",
         "year": 1988,
         "make": "Mitsubishi",
         "type":"Convertible",
@@ -387,6 +419,7 @@ const carsData = [
     {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/1985-89_Plymouth_Reliant_K_LE.png/400px-1985-89_Plymouth_Reliant_K_LE.png",
         "model": "Plymouth Reliant",
+        "price": "$300",
         "year": 1981,
         "make": "Mitsubishi",
         "type":"SUV",
@@ -399,6 +432,7 @@ const carsData = [
     {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/1978_chevette.JPG/400px-1978_chevette.JPG",
         "model": "Chevrolet Chevette",
+        "price": "$390",
         "year": 1975,
         "make": "Mitsubishi",
         "type":"Wagon",
@@ -411,6 +445,7 @@ const carsData = [
     {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Chevrolet_Corsica_1994.jpg/400px-Chevrolet_Corsica_1994.jpg",
         "model": "Chevrolet Corsica",
+        "price": "$410",
         "year": 1987,
         "make": "Mitsubishi",
         "type":"Sedan",
@@ -423,6 +458,7 @@ const carsData = [
     {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/1992_MX3_V6_24V.jpg/400px-1992_MX3_V6_24V.jpg",
         "model": "Mazda MX-3",
+        "price": "$540",
         "year": 1991,
         "make": "Mitsubishi",
         "type":"SUV",
@@ -435,6 +471,7 @@ const carsData = [
     {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/2000_TVR_Tuscan_4.0_Speed_Six_by_The_Car_Spy.jpg/400px-2000_TVR_Tuscan_4.0_Speed_Six_by_The_Car_Spy.jpg",
         "model": "TVR Tuscan Speed Six",
+        "price": "$410",
         "year": 1999,
         "make": "Mitsubishi",
         "type":"Sedan",
@@ -447,6 +484,7 @@ const carsData = [
     {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Aston_Martin_DB9_coupe_02.jpg/400px-Aston_Martin_DB9_coupe_02.jpg",
         "model": "Aston Martin DB9",
+        "price": "$750",
         "year": 2004,
         "make": "Mitsubishi",
         "type":"Wagon",
@@ -459,6 +497,7 @@ const carsData = [
     {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Pontiac_Catalina_front.jpg/400px-Pontiac_Catalina_front.jpg",
         "model": "Pontiac Catalina",
+        "price": "$815",
         "year": 1950,
         "make": "Mitsubishi",
         "type":"Sedan",
@@ -471,6 +510,7 @@ const carsData = [
     {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Oldsmobile_Toronado_0003.jpg/400px-Oldsmobile_Toronado_0003.jpg",
         "model": "Oldsmobile Toronado",
+        "price": "$730",
         "year": 1965,
         "make": "Mitsubishi",
         "type":"Pickup",
@@ -483,6 +523,7 @@ const carsData = [
     {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Chrysler_Cirrus_--_01-27-2012.jpg/400px-Chrysler_Cirrus_--_01-27-2012.jpg",
         "model": "Chrysler Cirrus",
+        "price": "$890",
         "year": 1994,
         "make": "Mitsubishi",
         "type":"SUV",
@@ -492,21 +533,10 @@ const carsData = [
       "milage":"9km/1-litre",
       "oil": "Gasoline",
     },
-    // {
-    //     "url": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/VW_Corrado_-_standard.jpg/400px-VW_Corrado_-_standard.jpg",
-    //     "model": "Volkswagen Corrado",
-    //     "year": 1988,
-    //     "make": "Mitsubishi",
-    //     "type":"SUV",
-    //     "class": "Sport compact",
-    //     "capacity": "4 people",
-    //   "control": "Automatic",
-    //   "milage":"9km/1-litre",
-    //   "oil": "Gasoline",
-    // },
     {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Volvo_V50_1.6_D.jpg/400px-Volvo_V50_1.6_D.jpg",
         "model": "Volvo V50",
+        "price": "$650",
         "year": 2004,
         "make": "Mitsubishi",
         "type":"Convertible",
@@ -519,6 +549,7 @@ const carsData = [
     {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/VW_Touareg_Exclusive_V6_TDI_BlueMotion_Technology_%28II%29_%E2%80%93_Frontansicht%2C_3._Juli_2013%2C_M%C3%BCnster.jpg/400px-VW_Touareg_Exclusive_V6_TDI_BlueMotion_Technology_%28II%29_%E2%80%93_Frontansicht%2C_3._Juli_2013%2C_M%C3%BCnster.jpg",
         "model": "Volkswagen Touareg",
+        "price": "$480",
         "year": 2002,
         "make": "Mitsubishi",
         "type":"SUV",
@@ -531,6 +562,7 @@ const carsData = [
     {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Red92VR4rear.jpg/400px-Red92VR4rear.jpg",
         "model": "Mitsubishi GTO",
+        "price": "$350",
         "year": 1990,
         "make": "Mitsubishi",
         "type":"Convertible",
@@ -543,6 +575,7 @@ const carsData = [
     {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Cadillac_Cimarron_2_--_07-01-2009.jpg/400px-Cadillac_Cimarron_2_--_07-01-2009.jpg",
         "model": "Cadillac Cimarron",
+        "price": "$760",
         "year": 1981,
         "make": "Mitsubishi",
         "type":"SUV",
@@ -555,6 +588,7 @@ const carsData = [
     {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/1991_Daytona_CS.JPG/400px-1991_Daytona_CS.JPG",
         "model": "Dodge Daytona",
+        "price": "$530",
         "year": 1984,
         "make": "Mitsubishi",
         "type":"Convertible",
@@ -567,6 +601,7 @@ const carsData = [
     {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Cadillac_Allante.jpg/400px-Cadillac_Allante.jpg",
         "model": "Cadillac Allanté",
+        "price": "$700",
         "year": 1986,
         "make": "Mitsubishi",
         "type":"Pickup",
@@ -579,6 +614,7 @@ const carsData = [
     {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Toyota_Avensis_III_20090706_front.JPG/400px-Toyota_Avensis_III_20090706_front.JPG",
         "model": "Toyota Avensis",
+        "price": "$900",
         "year": 1997,
         "make": "Mitsubishi",
         "type":"Sedan",
@@ -591,6 +627,7 @@ const carsData = [
     {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Mercedes_300SL_Coupe_vr_silver_EMS.jpg/400px-Mercedes_300SL_Coupe_vr_silver_EMS.jpg",
         "model": "Mercedes-Benz 300 SL",
+        "price": "$650",
         "year": 1952,
         "make": "Mitsubishi",
         "type":"Pickup",
@@ -603,6 +640,7 @@ const carsData = [
     {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Audi_A2_front_20071002.jpg/400px-Audi_A2_front_20071002.jpg",
         "model": "Audi A2",
+        "price": "$780",
         "year": 1999,
         "make": "Mitsubishi",
         "type":"Sedan",
@@ -615,6 +653,7 @@ const carsData = [
     {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/91RT_1.jpg/400px-91RT_1.jpg",
         "model": "Dodge Spirit",
+        "price": "$540",
         "year": 1989,
         "make": "Mitsubishi",
         "type":"SUV",
@@ -627,6 +666,7 @@ const carsData = [
     {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/%2782-%2784_Pontiac_6000_Coupe.jpg/400px-%2782-%2784_Pontiac_6000_Coupe.jpg",
         "model": "Pontiac 6000",
+        "price": "$960",
         "year": 1982,
         "make": "Mitsubishi",
         "type":"Wagon",
@@ -639,6 +679,7 @@ const carsData = [
     {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Dodge-Shadow-Coupe.jpg/400px-Dodge-Shadow-Coupe.jpg",
         "model": "Dodge Shadow",
+        "price": "$540",
         "year": 1986,
         "make": "Mitsubishi",
         "type":"Sedan",
@@ -651,6 +692,7 @@ const carsData = [
     {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Oldsmobile_Alero_sedan_--_03-16-2012.JPG/400px-Oldsmobile_Alero_sedan_--_03-16-2012.JPG",
         "model": "Oldsmobile Alero",
+        "price": "$400",
         "year": 1998,
         "make": "Mitsubishi",
         "type":"Convertible",
@@ -663,6 +705,7 @@ const carsData = [
     {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/2006_Chrysler_Crossfire_%28ZH_MY05%29_coupe_%282015-11-11%29_01.jpg/400px-2006_Chrysler_Crossfire_%28ZH_MY05%29_coupe_%282015-11-11%29_01.jpg",
         "model": "Chrysler Crossfire",
+        "price": "$570",
         "year": 2003,
         "make": "Mitsubishi",
         "type":"Wagon",
@@ -675,6 +718,7 @@ const carsData = [
     {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/1968_AMC_AMX_white_at_Rockville_Maryland_show_2007.jpg/400px-1968_AMC_AMX_white_at_Rockville_Maryland_show_2007.jpg",
         "model": "AMC AMX",
+        "price": "$420",
         "year": 1968,
         "make": "Mitsubishi",
         "type":"Wagon",
@@ -687,6 +731,7 @@ const carsData = [
     {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/93_Dodge_Dynasty_%2814344073600%29.jpg/400px-93_Dodge_Dynasty_%2814344073600%29.jpg",
         "model": "Dodge Dynasty",
+        "price": "$630",
         "year": 1988,
         "make": "Mitsubishi",
         "type":"Convertible",
@@ -699,6 +744,7 @@ const carsData = [
     {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Audi_A5_Coup%C3%A9_2.0_TFSI_quattro_S_tronic_Gletscherwei%C3%9F_Facelift.JPG/400px-Audi_A5_Coup%C3%A9_2.0_TFSI_quattro_S_tronic_Gletscherwei%C3%9F_Facelift.JPG",
         "model": "Audi A5",
+        "price": "$800",
         "year": 2007,
         "make": "Mitsubishi",
         "type":"Convertible",
@@ -711,6 +757,7 @@ const carsData = [
     {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Cadillac_V-16_Roadster_1930.jpg/400px-Cadillac_V-16_Roadster_1930.jpg",
         "model": "Cadillac V-16",
+        "price": "$640",
         "year": 1930,
         "make": "Mitsubishi",
         "type":"pickup",
@@ -723,6 +770,7 @@ const carsData = [
     {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Fiero88.JPG/400px-Fiero88.JPG",
         "model": "Pontiac Fiero",
+        "price": "$950",
         "year": 1983,
         "make": "Mitsubishi",
         "type":"Sedan",
@@ -735,6 +783,7 @@ const carsData = [
     {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/1990_240sx_Quarter_View.JPG/400px-1990_240sx_Quarter_View.JPG",
         "model": "Nissan 240SX",
+        "price": "$350",
         "year": 1989,
         "make": "Mitsubishi",
         "type":"sedan",
@@ -747,6 +796,7 @@ const carsData = [
     {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/2008_Chrysler_300.jpg/400px-2008_Chrysler_300.jpg",
         "model": "Chrysler 300",
+        "price": "$350",
         "year": 2003,
         "make": "Mitsubishi",
         "type":"SUV",
@@ -759,6 +809,7 @@ const carsData = [
     {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Volvo_C30_RDesign_HRes.jpg/400px-Volvo_C30_RDesign_HRes.jpg",
         "model": "Volvo C30",
+        "price": "$350",
         "year": 2006,
         "make": "Mitsubishi",
         "type":"SUV",
@@ -771,6 +822,7 @@ const carsData = [
     {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Plymouth_Duster_%28Orange_Julep%29.jpg/400px-Plymouth_Duster_%28Orange_Julep%29.jpg",
         "model": "Plymouth Duster",
+        "price": "$350",
         "year": 1969,
         "make": "Mitsubishi",
         "type":"SUV",
@@ -783,6 +835,7 @@ const carsData = [
     {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Mazda_Xedos_9.JPG/400px-Mazda_Xedos_9.JPG",
         "model": "Mazda Millenia",
+        "price": "$350",
         "year": 1992,
         "make": "Mitsubishi",
         "type":"SUV",
@@ -795,6 +848,7 @@ const carsData = [
     {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Fiat_Tempra_SX_%2793.jpg/400px-Fiat_Tempra_SX_%2793.jpg",
         "model": "Fiat Tempra",
+        "price": "$350",
         "year": 1990,
         "make": "Mitsubishi",
         "type":"SUV",

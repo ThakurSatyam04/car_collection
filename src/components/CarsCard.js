@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import {FcLike,FcLikePlaceholder} from 'react-icons/fc';
 import { toast } from 'react-toastify';
 
-const CarsCard = ({id,url,year,make,model,type,capacity,control,oil,milage}) => {
+const CarsCard = ({id,url,year,make,model,type,capacity,control,oil,milage,price}) => {
   const [isLiked,setIsLiked] = useState(false);
 
   const handleClick=()=>{
@@ -31,7 +31,7 @@ const CarsCard = ({id,url,year,make,model,type,capacity,control,oil,milage}) => 
       </div> <hr />
       <div className='w-full flex items-center justify-between mt-2'>
         <div>
-          <h2 ><span className='font-bold'>$325</span><sub>/month</sub></h2>
+          <h2 ><span className='font-bold'>{price}</span><sub>/month</sub></h2>
         </div>
         <div className='flex gap-3'>
           <div className='w-[30px] h-[30px] bg-white rounded-full right-2  grid place-items-center' onClick={handleClick}>

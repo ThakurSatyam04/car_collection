@@ -6,11 +6,15 @@ import data from './cars';
 import carsData from './data'
 
 function App() {
+  const [searchQuery,setSearchQuery] = useState('');
+  const [filteredCars, setFilteredCars] = useState([]);
+  
+
   const [cars,setCars] = useState(carsData);
   return (
     <>
-      <Nav/>
-      <CarDisplay cars = {cars}/>
+      <Nav setFilteredCars={setFilteredCars} setSearchQuery={setSearchQuery} searchQuery={searchQuery}/>
+      <CarDisplay cars = {cars} searchQuery={searchQuery} filteredCars={filteredCars}/>
     </>
   );
 }
