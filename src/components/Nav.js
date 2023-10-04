@@ -18,7 +18,7 @@ const Nav = ({setCars,cars,setSearchQuery,searchQuery,setIsSearched}) => {
      };
 
   return (
-    <div className='flex items-center justify-center mt-4 '>
+    <div className='hidden  md:flex items-center justify-center mt-4'>
       <div className='w-11/12 shadow-md border-white border rounded-2xl p-3 flex gap-10 bg-[#d3e5ecd5]'>
       <div className='w-16 flex items-center justify-center'>
           <img className='rounded-full' src="https://www.shutterstock.com/image-vector/car-garage-premium-concept-logo-250nw-1679598139.jpg" alt="" />
