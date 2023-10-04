@@ -21,9 +21,3 @@ You can check out the live demo of this project https://car-collection-kappa.ver
 - HTML/CSS
 - [Tailwind CSS](https://tailwindcss.com/) (for styling)
 - JSON (for data storage)
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
