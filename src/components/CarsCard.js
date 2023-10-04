@@ -25,10 +25,10 @@ const CarsCard = ({id,url,year,make,model,type,capacity,control,oil,milage}) => 
         <p>{milage}</p>
         <p>{control}</p>
       </div>
-      <div className='flex justify-between'>
+      <div className='flex justify-between mb-2'>
         <p>Make : {make}</p>
         <p>{type}</p>
-      </div><hr />
+      </div> <hr />
       <div className='w-full flex items-center justify-between mt-2'>
         <div>
           <h2 ><span className='font-bold'>$325</span><sub>/month</sub></h2>
