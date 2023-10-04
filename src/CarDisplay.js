@@ -24,13 +24,16 @@ const CarDisplay = ({ cars }) => {
 
   return (
     <div>
-      <div className='flex items-center justify-center mt-2 flex-col p-10'>
-        <div className='w-11/12 flex flex-wrap gap-10 items-center justify-center'>
+      <div className='flex items-center justify-center mt-2 flex-col p-10 '>
+        <div className='w-11/12 flex flex-wrap gap-10 items-center justify-center '>
           {currentCars.map((car) => (
             <CarsCard key={car.id} {...car} />
           ))}
         </div>
-        <div className='w-10/12 flex justify-end mt-4 gap-5'>
+        <div className='w-10/12 flex justify-end mt-6 gap-5 items-center'>
+          <div className='border-2 border-black rounded-full flex items-center justify-center w-[20px] h-[20px] font-bold'>
+            <p>{currentPage}</p>
+          </div>
           {
             currentPage>1 && <button
             onClick={prevPage}
